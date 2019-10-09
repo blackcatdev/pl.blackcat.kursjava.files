@@ -39,6 +39,7 @@ public class Exercise2 {
 				System.out.println(fileLine);
 
 			}
+			bufferedReader.close();
 		} catch (IOException e) {
 			System.out.println("Błąd odczytu pliku.");
 			e.printStackTrace();
